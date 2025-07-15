@@ -1,0 +1,48 @@
+/* @media query for max 1200px */
+@media screen and (max-width: 1200px) {
+
+    .mainContainer {
+        width: 80% !important;
+        margin: auto !important;
+    }
+
+    .InputGroup {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .BaseUrlAddon {
+        width: 100% !important;
+        font-size: 15px !important;
+    }
+
+    .InputGroup input {
+        width: 100% !important;
+    }
+}
+
+.mainContainer {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+    padding: 2.5rem 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    transition: box-shadow 0.2s;
+}
+
+.mainContainer:hover {
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+}
+
+.InputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background: #f7fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 1rem;
+}
